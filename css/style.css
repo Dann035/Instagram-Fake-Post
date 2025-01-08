@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Helvetica;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 476px;
+    height: 645px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(255,255,255,0.4);
+}
+
+/* Código del encabezado de el container */
+
+.header {
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.header .fa-html5 {
+    font-size: 30px;
+    margin-right: 8px;
+}
+.header .HTML5 {
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+.header #user-name {
+    margin-top: 0;
+}
+.header .text-header {
+    margin-right: 360px;
+}
+.header .fa-ellipsis-vertical {
+    font-size: 30px;
+}
+
+/* Código de la imagen */
+
+.casa-batllo {
+    height: 339px;
+    width: 476px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Código de los iconos de interacción */
+
+.container-icon-txt-info {
+    padding: 5px;
+    text-align: justify;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.fa-bookmark {
+    margin-right: 15px;
+}
