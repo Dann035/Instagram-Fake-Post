@@ -1,9 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
+    font-family: "Roboto";
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vh;
-    font-family: Helvetica;
+    height: auto;
     overflow: hidden;
     background-color: black;
     display: flex;
@@ -13,57 +16,47 @@ body {
 
 .container {
     width: 476px;
-    height: 645px;
+    height: auto;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 30px rgba(255,255,255,0.4);
 }
 
-/* Código del encabezado de el container */
-
 .header {
-    padding: 10px 14px;
+    padding: 0 14px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     font-size: 13px;
+    height: 4.5rem;  
 }
-.header .fa-html5 {
-    font-size: 30px;
-    margin-right: 8px;
+.header i {
+    font-size: 35px;
 }
-.header .HTML5 {
-    margin-bottom: 5px;
-    font-weight: 800;
+.itemsLeft{
+    display: flex;
+    align-items: center;
 }
-.header #user-name {
-    margin-top: 0;
+.text-header,h3,h4 {
+    margin: 0 0 3px 5px;
+    padding: 0;
 }
-.header .text-header {
-    margin-right: 360px;
-}
-.header .fa-ellipsis-vertical {
-    font-size: 30px;
-}
-
-/* Código de la imagen */
 
 .casa-batllo {
     height: 339px;
     width: 476px;
     object-fit: cover;
-    border-radius: 10px;
 }
 
-/* Código de los iconos de interacción */
-
 .container-icon-txt-info {
-    padding: 5px;
+    padding: 15px;
     text-align: justify;
 }
 .icons {
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
-    font-size: 30px;
+    font-size: 35px;
 }
 .fa-bookmark {
     margin-right: 15px;
